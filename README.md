@@ -19,19 +19,21 @@ Choose the skills and agents in the interactive prompt. For local development, k
 Install the validator once with Go:
 
 ```bash
-go install github.com/pyand3v/skill-validator/cmd/skill-validator@v0.1.0
+go install github.com/pyand3v/skill-validator/cmd/skill-validator@v0.3.0
 ```
 
 Validate this collection locally:
 
 ```bash
-skill-validator skills
+skill-validator validate collection --repo-root . --skills-dir skills --strict
 ```
 
-To validate another collection, pass its skills directory instead:
+The collection configuration in [`.skill-validator.yaml`](.skill-validator.yaml)
+declares cross-skill dependencies. To validate another collection, run the same
+explicit mode from its repository root:
 
 ```bash
-skill-validator /path/to/skills
+skill-validator validate collection --repo-root /path/to/repository --skills-dir skills --strict
 ```
 
 GitHub Actions runs the same validator for every push and pull request.

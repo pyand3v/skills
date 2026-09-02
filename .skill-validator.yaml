@@ -1,0 +1,8 @@
+collection:
+  skills_dir: skills
+  readme: README.md
+  dependencies:
+    teach-dev:
+      - teach
+    teach-math:
+      - teach
