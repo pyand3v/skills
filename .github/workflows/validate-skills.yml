@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-      - uses: pyand3v/skill-validator@07a482abe2f51a4f352a02c966826a77d5c2cccc # v0.2.0
+      - uses: pyand3v/skill-validator@817283efe8e06b9b203faadbf2f400fad2840b6e # v0.2.1
         with:
           path: skills
           format: text
