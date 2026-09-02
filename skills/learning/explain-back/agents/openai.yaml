@@ -1,0 +1,6 @@
+interface:
+  display_name: "Explain Back"
+  short_description: "Test understanding by explaining it aloud"
+  default_prompt: "Use $explain-back to test my understanding of this topic."
+policy:
+  allow_implicit_invocation: false
