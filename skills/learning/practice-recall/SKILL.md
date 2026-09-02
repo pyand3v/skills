@@ -13,7 +13,7 @@ Use this skill only for an explicit `$practice-recall` request. Ordinary questio
 
 Prefer an existing learning workspace or topic. When the learner names one, use it as the source of truth. When they do not, look for relevant existing learning workspaces; use an unambiguous match or list multiple plausible matches for the learner to choose. Do not guess.
 
-Read only the artifacts that exist and matter: mission/source, progress, glossary, resources, learning records, lessons, notes, and prior recall history. Support `.teach-dev/`, `.learn-from-docs/`, and future workspace types by adapting to their available state rather than requiring identical layouts.
+Read only the artifacts that exist and matter: mission/source, progress, glossary, resources, learning records, lessons, notes, and prior recall history. Support `.teach/`, `.learn-from-docs/`, and future workspace types by adapting to their available state rather than requiring identical layouts.
 
 If no useful workspace exists, allow a standalone session only when the learner supplies the material to review. Do not create a workspace merely for recall.
 
