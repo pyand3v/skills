@@ -1,0 +1,6 @@
+interface:
+  display_name: "Practice Recall"
+  short_description: "Strengthen learning through retrieval practice"
+  default_prompt: "Use $practice-recall to review what I learned about Go maps."
+policy:
+  allow_implicit_invocation: false
