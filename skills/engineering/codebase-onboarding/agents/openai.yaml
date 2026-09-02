@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codebase Onboarding"
+  short_description: "Map and navigate an unfamiliar codebase"
+  default_prompt: "Use $codebase-onboarding to help me understand this repository."
+policy:
+  allow_implicit_invocation: false
