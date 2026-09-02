@@ -1,0 +1,3 @@
+interface:
+  display_name: "Versioning Skills"
+  short_description: "Inspect and safely record Git changes"
