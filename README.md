@@ -43,6 +43,8 @@ GitHub Actions runs the same validator for every push and pull request.
 | [`grill-me`](skills/productivity/grill-me/SKILL.md)                 | Start a user-invoked grilling session.                                                      |
 | [`teach-dev`](skills/learning/teach-dev/SKILL.md)                  | Learn developer topics through persistent Markdown lessons and practice.                    |
 | [`learn-from-docs`](skills/learning/learn-from-docs/SKILL.md)       | Study supplied sources through guided notes and practice.                                    |
+| [`explain-back`](skills/learning/explain-back/SKILL.md)             | Test understanding through learner explanations and feedback.                                |
+| [`practice-recall`](skills/learning/practice-recall/SKILL.md)       | Strengthen learning through short retrieval-practice rounds.                                 |
 | [`to-questionnaire`](skills/productivity/to-questionnaire/SKILL.md) | Turn unanswered decisions into a questionnaire for the person who holds the needed context. |
 
 ## Adding a skill
