@@ -12,6 +12,8 @@ npx skills@latest add pyand3v/skills
 
 Choose the skills and agents in the interactive prompt. For local development, keep this repository cloned and copy or link an individual skill directory into your Codex skills directory.
 
+`teach-dev` and `teach-math` extend `teach`; install `teach` together with either specialization.
+
 ## Validate skills
 
 Install the validator once with Go:
@@ -40,8 +42,8 @@ GitHub Actions runs the same validator for every push and pull request.
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | [`versioning`](skills/engineering/versioning/SKILL.md)              | Inspect Git safely and only stage or commit when explicitly asked.                          |
 | [`codebase-onboarding`](skills/engineering/codebase-onboarding/SKILL.md) | Map an unfamiliar codebase through architecture and feature notes.                      |
-| [`grilling`](skills/productivity/grilling/SKILL.md)                 | Stress-test a plan or decision through rounds of questions.                                 |
-| [`grill-me`](skills/productivity/grill-me/SKILL.md)                 | Start a user-invoked grilling session.                                                      |
+| [`grill-me`](skills/productivity/grill-me/SKILL.md)                 | Stress-test a plan or decision through question rounds.                                     |
+| [`teach`](skills/learning/teach/SKILL.md)                           | Learn any topic through stateful lessons, practice, and evidence.                          |
 | [`teach-dev`](skills/learning/teach-dev/SKILL.md)                  | Learn developer topics through persistent Markdown lessons and practice.                    |
 | [`learn-from-docs`](skills/learning/learn-from-docs/SKILL.md)       | Study supplied sources through guided notes and practice.                                    |
 | [`explain-back`](skills/learning/explain-back/SKILL.md)             | Test understanding through learner explanations and feedback.                                |
