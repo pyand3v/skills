@@ -1,5 +1,5 @@
 ---
-name: versioning-skills
+name: versioning
 description: Safe Git assistance for this repository. Inspect changes by default; stage and commit only when the user explicitly asks, without changing branches or rewriting history.
 ---
 
