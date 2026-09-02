@@ -1,6 +1,6 @@
 # Lesson Format
 
-Lessons live in a topic's `lessons/` directory as sequentially numbered Markdown files, such as `0001-http-request-lifecycle.md`. Each lesson teaches one capability and provides one tangible win.
+Lessons live in a topic's `lessons/` directory as sequentially numbered Markdown files, such as `0001-<lesson>.md`. Each lesson teaches one capability and provides one tangible win.
 
 ## Template
 
@@ -41,5 +41,5 @@ Lessons live in a topic's `lessons/` directory as sequentially numbered Markdown
 - Teach one capability, not a broad topic survey.
 - Omit prerequisite recall, a worked example, or a next step when it adds no value; retain an objective, practice, verification, takeaway, and sources when applicable.
 - Tie practice to an observable success condition and give feedback as soon as the learner can use it.
-- Link to the exercise artifact when one exists, use established glossary terms, and cite the sources supporting version-sensitive claims.
+- Link to the exercise artifact when one exists, use established glossary terms, and cite sources supporting externally derived claims.
 - Do not update `PROGRESS.md` merely because a lesson was written or read; require learning evidence.

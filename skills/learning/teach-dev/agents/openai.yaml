@@ -1,6 +1,6 @@
 interface:
   display_name: "Teach Dev"
-  short_description: "Learn development topics through practice"
+  short_description: "Learn development topics through the Teach framework"
   default_prompt: "Use $teach-dev to help me learn Go for backend development."
 policy:
   allow_implicit_invocation: false

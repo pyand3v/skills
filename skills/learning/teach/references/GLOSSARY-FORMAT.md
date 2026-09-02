@@ -11,9 +11,9 @@
 
 ## Terms
 
-**Interface**:
-A contract that describes the operations a value supports without prescribing its implementation.
-_Avoid_: API, abstraction
+**Deliberate practice**:
+Focused practice designed to improve a clearly defined capability through feedback and adjustment.
+_Avoid_: Repetition, doing more
 ```
 
 ## Rules

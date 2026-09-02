@@ -1,6 +1,6 @@
 # Learning Record Format
 
-Learning records live in a topic's `learning-records/` directory and use sequential filenames such as `0001-interfaces-are-contracts.md`. Create the directory only when writing the first record.
+Learning records live in a topic's `learning-records/` directory and use sequential filenames such as `0001-<learning-record>.md`. Create the directory only when writing the first record.
 
 They capture decision-grade evidence about what the learner knows and why future teaching should adapt. They complement `PROGRESS.md`: records preserve history, while progress summarizes the current state and next steps.
 

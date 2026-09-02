@@ -15,7 +15,7 @@
 - {Another specific, observable capability}
 
 ## Constraints
-- {Time, prior commitments, project context, or learning preferences}
+- {Time, prior commitments, available materials, or learning preferences}
 
 ## Out of scope
 - {An adjacent topic that should not distract from this mission}

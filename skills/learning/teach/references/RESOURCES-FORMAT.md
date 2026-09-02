@@ -9,7 +9,7 @@
 
 ## Knowledge
 
-- [Official guide: {Title}](https://example.com)
+- [Trusted source: {Title}](https://example.com)
   {What it covers and when to use it. Lessons: 0001-topic-basics.}
 
 ## Wisdom and practice
