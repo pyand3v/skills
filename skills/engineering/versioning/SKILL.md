@@ -44,7 +44,7 @@ Create a commit only when the user explicitly asks. Before committing:
 
 1. Review the staged diff and current branch.
 2. Confirm that the staged change matches the user's intent.
-3. Use a Conventional Commits message. Read [references/conventional-commits.md](./references/conventional-commits.md) before proposing or validating one. If the user supplies a non-conforming message, propose a compliant replacement and obtain approval when needed.
+3. Use a Conventional Commits message. Read `references/conventional-commits.md` before proposing or validating one. If the user supplies a non-conforming message, propose a compliant replacement and obtain approval when needed.
 4. Create one normal commit on the current branch with no history rewrite or branch switch.
 
 Do not commit automatically after edits or after each logical change.

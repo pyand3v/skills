@@ -38,6 +38,6 @@ Do not assign a numeric grade. A recall attempt alone is not evidence of mastery
 
 ## Record evidence
 
-For a workspace-aware session, create or update a compact topic-level `RECALL.md` using [RECALL-HISTORY-FORMAT.md](./references/RECALL-HISTORY-FORMAT.md), unless the workspace has a documented conflicting convention. Record the date, concepts tested, outcome, and suggested revisit point; keep it concise.
+For a workspace-aware session, create or update a compact topic-level `RECALL.md` using `references/RECALL-HISTORY-FORMAT.md`, unless the workspace has a documented conflicting convention. Record the date, concepts tested, outcome, and suggested revisit point; keep it concise.
 
 Update the workspace's progress, glossary, or learning records only when the learner's answers meet that workspace's evidence threshold. Preserve its own status definitions and file conventions. Do not persist history or learning state for standalone sessions.
