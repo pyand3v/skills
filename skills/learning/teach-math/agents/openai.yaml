@@ -1,0 +1,6 @@
+interface:
+  display_name: "Teach Math"
+  short_description: "Learn math through reasoning and practice"
+  default_prompt: "Use $teach-math to help me learn proof by induction."
+policy:
+  allow_implicit_invocation: false
