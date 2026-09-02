@@ -1,0 +1,6 @@
+interface:
+  display_name: "Learn by Building"
+  short_description: "Learn through verified project increments"
+  default_prompt: "Use $learn-by-building to help me build a small CLI for tracking habits."
+policy:
+  allow_implicit_invocation: false
