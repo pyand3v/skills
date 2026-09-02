@@ -4,9 +4,16 @@ A personal collection of small, composable skills for Codex and compatible codin
 
 ## Install
 
-Install selected skills with the Skills CLI:
+Install selected skills with the Skills CLI. Use the command for your preferred package manager:
 
 ```bash
+# pnpm
+pnpm dlx skills@latest add pyand3v/skills
+
+# Bun
+bunx skills@latest add pyand3v/skills
+
+# npm
 npx skills@latest add pyand3v/skills
 ```
 
