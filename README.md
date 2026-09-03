@@ -1,10 +1,10 @@
-# My Codex Skills
+# Skills
 
-A personal collection of small, composable skills for Codex and compatible coding agents. Each skill captures a workflow or constraint that I want applied consistently, while remaining easy to inspect and adapt.
+My collection of codex-first skills.
 
 ## Install
 
-Install selected skills with the Skills CLI. Use the command for your preferred package manager:
+Install selected skills with the Skills CLI. Pick your poison:
 
 ```bash
 # pnpm
@@ -17,63 +17,25 @@ bunx skills@latest add pyand3v/skills
 npx skills@latest add pyand3v/skills
 ```
 
-Choose the skills and agents in the interactive prompt. For local development, keep this repository cloned and copy or link an individual skill directory into your Codex skills directory.
-
-`teach-dev` and `teach-math` extend `teach`; install `teach` together with either specialization.
-
-## Validate skills
-
-Install the validator once with Go:
-
-```bash
-go install github.com/pyand3v/skill-validator/cmd/skill-validator@v0.3.0
-```
-
-Validate this collection locally:
-
-```bash
-skill-validator validate collection --repo-root . --skills-dir skills --strict
-```
-
-The collection configuration in [`.skill-validator.yaml`](.skill-validator.yaml)
-declares cross-skill dependencies. To validate another collection, run the same
-explicit mode from its repository root:
-
-```bash
-skill-validator validate collection --repo-root /path/to/repository --skills-dir skills --strict
-```
-
-GitHub Actions runs the same validator for every push and pull request.
-
 ## Included skills
 
-| Skill                                                               | Purpose                                                                                     |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [`versioning`](skills/engineering/versioning/SKILL.md)              | Inspect Git safely and only stage or commit when explicitly asked.                          |
-| [`codebase-onboarding`](skills/engineering/codebase-onboarding/SKILL.md) | Map an unfamiliar codebase through architecture and feature notes.                      |
-| [`grill-me`](skills/productivity/grill-me/SKILL.md)                 | Stress-test a plan or decision through question rounds.                                     |
-| [`teach`](skills/learning/teach/SKILL.md)                           | Learn any topic through stateful lessons, practice, and evidence.                          |
-| [`teach-dev`](skills/learning/teach-dev/SKILL.md)                  | Learn developer topics through persistent Markdown lessons and practice.                    |
-| [`learn-from-docs`](skills/learning/learn-from-docs/SKILL.md)       | Study supplied sources through guided notes and practice.                                    |
-| [`explain-back`](skills/learning/explain-back/SKILL.md)             | Test understanding through learner explanations and feedback.                                |
-| [`practice-recall`](skills/learning/practice-recall/SKILL.md)       | Strengthen learning through short retrieval-practice rounds.                                 |
-| [`learn-by-building`](skills/learning/learn-by-building/SKILL.md)   | Learn through small project increments with observable verification.                         |
-| [`teach-math`](skills/learning/teach-math/SKILL.md)                 | Learn mathematical and logical reasoning through guided practice.                            |
-| [`to-questionnaire`](skills/productivity/to-questionnaire/SKILL.md) | Turn unanswered decisions into a questionnaire for the person who holds the needed context. |
+| Skill                                                                    | Purpose                                                                                     |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| [`versioning`](skills/engineering/versioning/SKILL.md)                   | Inspect Git safely and only stage or commit when explicitly asked.                          |
+| [`codebase-onboarding`](skills/engineering/codebase-onboarding/SKILL.md) | Map an unfamiliar codebase through architecture and feature notes.                          |
+| [`grill-me`](skills/productivity/grill-me/SKILL.md)                      | Stress-test a plan or decision through question rounds.                                     |
+| [`teach`](skills/learning/teach/SKILL.md)                                | Learn any topic through stateful lessons, practice, and evidence.                           |
+| [`teach-dev`](skills/learning/teach-dev/SKILL.md)                        | Learn developer topics through persistent Markdown lessons and practice.                    |
+| [`learn-from-docs`](skills/learning/learn-from-docs/SKILL.md)            | Study supplied sources through guided notes and practice.                                   |
+| [`explain-back`](skills/learning/explain-back/SKILL.md)                  | Test understanding through learner explanations and feedback.                               |
+| [`practice-recall`](skills/learning/practice-recall/SKILL.md)            | Strengthen learning through short retrieval-practice rounds.                                |
+| [`learn-by-building`](skills/learning/learn-by-building/SKILL.md)        | Learn through small project increments with observable verification.                        |
+| [`teach-math`](skills/learning/teach-math/SKILL.md)                      | Learn mathematical and logical reasoning through guided practice.                           |
+| [`to-questionnaire`](skills/productivity/to-questionnaire/SKILL.md)      | Turn unanswered decisions into a questionnaire for the person who holds the needed context. |
 
-## Adding a skill
+## Contributing
 
-Add each skill as its own directory beneath `skills/`:
-
-```text
-skills/
-  my-skill/
-    SKILL.md
-    agents/
-      openai.yaml
-```
-
-Use lowercase hyphenated names. Keep `SKILL.md` focused on guidance that is specific to the workflow; add `scripts/`, `references/`, or `assets/` only when they directly support repeated work. Group skills in a domain subdirectory once that domain has more than a few related skills.
+Refer to [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Thanks
 
