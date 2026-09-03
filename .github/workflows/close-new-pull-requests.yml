@@ -1,0 +1,16 @@
+name: Close new pull requests
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448 # v3
+        with:
+          comment: "Thanks for the contribution. This repository does not accept pull requests."
