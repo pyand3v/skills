@@ -23,6 +23,7 @@ npx skills@latest add pyand3v/skills
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
 | [`versioning`](skills/engineering/versioning/SKILL.md)                   | Inspect Git safely and only stage or commit when explicitly asked.                             |
 | [`codebase-onboarding`](skills/engineering/codebase-onboarding/SKILL.md) | Map an unfamiliar codebase through architecture and feature notes.                             |
+| [`tdd`](skills/engineering/tdd/SKILL.md)                                 | Build software through focused test-driven, red-green-refactor cycles.                         |
 | [`grill-me`](skills/productivity/grill-me/SKILL.md)                      | Stress-test a plan or decision through question rounds.                                        |
 | [`teach`](skills/learning/teach/SKILL.md)                                | Generic skill made for learning through stateful lessons, practice, and evidence.              |
 | [`teach-dev`](skills/learning/teach-dev/SKILL.md)                        | Specialized overlay of the `teach` skill made for learning software engineering topics.        |
