@@ -29,6 +29,7 @@ npx skills@latest add pyand3v/skills
 | [`teach-dev`](skills/learning/teach-dev/SKILL.md)                        | Specialized overlay of the `teach` skill made for learning software engineering topics.        |
 | [`teach-math`](skills/learning/teach-math/SKILL.md)                      | Specialized overlay of the `teach` skill made for learning mathematical and logical reasoning. |
 | [`learn-from-docs`](skills/learning/learn-from-docs/SKILL.md)            | Study supplied sources through guided notes and practice.                                      |
+| [`socratic-tutor`](skills/learning/socratic-tutor/SKILL.md)              | Learn through adaptive, question-led dialogue and demonstrated insight.                       |
 | [`explain-back`](skills/learning/explain-back/SKILL.md)                  | Test understanding through learner explanations and feedback.                                  |
 | [`practice-recall`](skills/learning/practice-recall/SKILL.md)            | Strengthen learning through short retrieval-practice rounds.                                   |
 | [`learn-by-building`](skills/learning/learn-by-building/SKILL.md)        | Learn through small project increments with observable verification.                           |
